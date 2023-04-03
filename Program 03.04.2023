@@ -1,0 +1,13 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        Console.WriteLine("я могу вводить дииаметр шарика в сантиметрах, цвета в основе в виде кода, словесного описани€ кода")
+        Dim dm As Decimal
+        dm = Console.ReadLine
+
+        'Dim color As Integer
+
+        Console.WriteLine("")
+    End Sub
+End Module
